@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./app.js" defer></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <title>Visionnaire Home Philosophy</title>
+</head>
+
+<body>
+    <header class="header">
+        <a href="homepage.html" id="logo-btn">
+            <img src="./images/header/logo.svg" alt="" class="header__logo">
+        </a>
+        <button class="header__block-menu">
+            <div class="header__button-wrapper">
+                <span class="header__hamburger-box">
+                    <span class="header__hamburger-inner"></span>
+                </span>
+                <span class="header__button-label header__button-label-open">Menu</span>
+                <span class="header__button-label header__button-label-close">Close</span>
+            </div>
+
+            <div class="header__language">
+                <a class="header__lngbox">EN</a>
+                <a class="header__lngbox">IT</a>
+                <a class="header__lngbox">RU</a>
+                <a class="header__lngbox">中文</a>
+                <a class="header__lngbox">&nbsp</a>
+            </div>
+        </button>
+        <button class="header__hamburger-box-mobile">
+            <span class="header__hamburger-inner-mobile"></span>
+        </button>
+        <div class="header__menus-container-mobile">
+            <div class="header__menu-mobile-logo">
+                <img src="./images/header/logo.svg" alt="logo">
+            </div>
+            <div class="header__menu-wrapper">
+                <div class="header__menu-mobile-languages row">
+                    <div class="header__lng-box col-2 lng-box-active">EN</div>
+                    <div class="header__lng-box col-2">IT</div>
+                    <div class="header__lng-box col-2">RU</div>
+                    <div class="header__lng-box col-2">中文</div>
+                </div>
+                <div class="header__menu-mobile-explain row">
+                    <ul>
+                        <li class="header__explain-text"><a href="">About us</a></li>
+                        <li class="header__explain-text"><a href="">Stores</a></li>
+                        <li class="header__explain-text"><a href="">Home philosophy</a></li>
+                        <li class="header__explain-text"><a href="">Collection</a></li>
+                        <li class="header__explain-text"><a href="">Arts & Crafts</a></li>
+                        <li class="header__explain-text"><a href="">News</a></li>
+                        <li class="header__explain-text"><a href="">Interiors</a></li>
+                        <li class="header__explain-text"><a href="">E-boutique</a></li>
+                        <li class="header__explain-text"><a href="">Bistrot</a></li>
+                        <li class="header__explain-text"><a href="">Wunderkammer</a></li>
+                    </ul>
+                </div>
+                <div class="header__menu-mobile-footer row">
+                    <div class="header__menu-mobile-groupOne">
+                        <ul class="header__menu-mobile-ul">
+                            <li class="header__menu-mobile-li"><a href="" class="header__menu-mobile-a">CONTACT</a></li>
+                            <li class="header__menu-mobile-li"><a href="" class="header__menu-mobile-a">COOKIE
+                                    POLICY</a></li>
+                            <li class="header__menu-mobile-li"><a href="" class="header__menu-mobile-a">NEWSLETTER</a>
+                            </li>
+                            <li class="header__menu-mobile-li"><a href="" class="header__menu-mobile-a">VISION APP</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="header__menu-mobile-groupTwo">
+                        <ul class="header__bottom-icons row">
+                            <li class="header__icon-self col-2" id="instagram">
+                                <a href="" class="header__bottom-item-a"></a>
+                            </li>
+                            <li class="header__icon-self col-2" id="facebook">
+                                <a href="" class="header__bottom-item-a"></a>
+                            </li>
+                            <li class="header__icon-self col-2" id="whatsapp">
+                                <a href="" class="header__bottom-item-a"></a>
+                            </li>
+                            <li class="header__icon-self col-2" id="wechat">
+                                <a href="" class="header__bottom-item-a"></a>
+                            </li>
+                            <li class="header__icon-self col-2" id="telegram">
+                                <a href="" class="header__bottom-item-a"></a>
+                            </li>
+                            <li class="header__icon-self col-2" id="weibo">
+                                <a href="" class="header__bottom-item-a"></a>
+                            </li>
+                            <li class="header__icon-self col-2" id="xiaohongshu">
+                                <a href="" class="header__bottom-item-a"></a>
+                            </li>
+                            <li class="header__icon-self col-2" id="pinterest">
+                                <a href="" class="header__bottom-item-a"></a>
+                            </li>
+                            <li class="header__icon-self col-2" id="youtube">
+                                <a href="" class="header__bottom-item-a"></a>
+                            </li>
+                            <li class="header__icon-self col-2" id="linkedin">
+                                <a href="" class="header__bottom-item-a"></a>
+                            </li>
+                            <li class="header__icon-self col-2" id="vk">
+                                <a href="" class="header__bottom-item-a"></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="header__menus-container">
+            <div class="header__menu-wrapper">
+                <div class="header_menu-logo-container col-12">
+                    <a href="/" rel="home" class="header__menus-logo">
+                        <img src="./images/header/logo.svg" alt="Home">
+                    </a>
+                </div>
+
+            </div>
+            <div class="header__group-text">
+                <div class="container-for-columns row">
+                    <div class="col-9">
+                        <div class="text-row-two row">
+                            <div class="text-group col-md-3 col-sm-6 col-12">
+                                <ul class="multiple-li">
+                                    <span> <b>ABOUT US</b> </span>
+                                    <li>DECALOGO</li>
+                                    <li>BENEFIT COMPANY</li>
+                                    <li>DESIGNERS</li>
+                                    <li>HISTORY</li>
+                                    <li>SUSTAINABILITY</li>
+                                </ul>
+                            </div>
+                            <div class="text-group col-md-3 col-sm-6 col-12">
+                                <ul class="multiple-li">
+                                    <span> <b>HOME PHILOSOPHY</b> </span>
+                                    <li>LIVINGROOM</li>
+                                    <li>DINING ROOM</li>
+                                    <li>Bedroom</li>
+                                    <li>Office room</li>
+                                    <li>Dehors</li>
+                                    <li>Foodroom</li>
+                                    <li>Wellness</li>
+                                    <li>Art Design</li>
+                                </ul>
+                            </div>
+                            <div class="text-group col-md-3 col-sm-6 col-12">
+                                <ul class="multiple-li">
+                                    <span> <b>Collection</b> </span>
+                                    <li>Rooms</li>
+                                    <li>Products</li>
+                                    <li>Catalogues</li>
+                                    <li>Press review</li>
+                                </ul>
+                            </div>
+                            <div class="text-group col-md-3 col-sm-6 col-12">
+                                <ul class="multiple-li">
+                                    <span> <b>News</b> </span>
+                                    <li>Awards</li>
+                                    <li>Pressbook</li>
+                                    <li>V-Inside</li>
+                                    <li>Video</li>
+                                    <li>Live</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="text-row-one row">
+                            <div class="text-group col-md-3 col-sm-6 col-12">
+                                <ul class="ul-hover">
+                                    <span> <b>E-boutique</b> </span>
+                                    <li>Accessories Capsule Collection, an original narrative approach translated into
+                                        expressive Art Design vocabulary</li>
+                                </ul>
+                            </div>
+                            <div class="text-group col-md-3 col-sm-6 col-12">
+                                <ul class="ul-hover">
+                                    <span> <b>Bistrot</b> </span>
+                                    <li>A project of love and appreciation of Italian culinary culture</li>
+                                </ul>
+                            </div>
+                            <div class="text-group col-md-3 col-sm-6 col-12">
+                                <ul class="ul-hover">
+                                    <span> <b>Wunderkammer</b> </span>
+                                    <li>Art in all its forms as source of inspiration</li>
+                                </ul>
+                            </div>
+                            <div class="text-group col-md-3 col-sm-6 col-12">
+                                <ul class="ul-hover">
+                                    <span> <b>Stores</b> </span>
+                                    <li>Visionnaire is present in more than 55 countries</li>
+                                </ul>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+                    <div class="text-row-tree col-md-3 col-sm-6 col-12">
+                        <!-- <div class="text-row-one col-4"> -->
+                        <div class="text-group col-12">
+                            <ul class="ul-hover">
+                                <span> <b>Arts & Crafts</b> </span>
+                                <li>Aesthetic research and craftsmanship for unique decorative proposals</li>
+                            </ul>
+                        </div>
+                        <div class="text-group col-12">
+                            <ul class="ul-hover">
+                                <span> <b>Interiors</b> </span>
+                                <li>A selection of our best projects, realized & in progress</li>
+                            </ul>
+                        </div>
+                        <!-- </div> -->
+                    </div>
+                </div>
+                <div class="latest-updates">
+                    Latest Updates
+                </div>
+                <div class="header__bottom-row row">
+                    <a class="header__div col-md-8" id="div1">
+                        <img src="./images/region/FEATURED copy.jpg" alt="" class="img-fluid col-md-4 col-sm-6 col-12">
+                        <div class="header__div-text-group col-md-8 col-sm-6 col-12">
+                            <div class="header__div-title">News</div>
+                            <div class="header__div-subtitle">
+                                Milan Design Gallery Virtual Experience</div>
+                            <div class="header__div-desc">
+                                Experience the new virtual tour of our flagship store in Milan. We will guide you
+                                through the
+                                Design Gallery that Visionnaire has transformed over the years into the pure expression
+                                of its
+                                own philosophy of living, in the representation of a real lifestyle.
+                            </div>
+                        </div>
+                    </a>
+                    <div class="header__bottom-right col-md-4">
+                        <div class="header__bottom-textLinks row">
+                            <ul class="header__row-ul row">
+                                <li class="header__li-text-link col-6">Contact</li>
+                                <li class="header__li-text-link col-6">Cookie Policy</li>
+                                <li class="header__li-text-link col-6">Newsletter </li>
+                                <li class="header__li-text-link col-6">Vision App</li>
+                            </ul>
+                        </div>
+                        <a href="https://open.spotify.com/playlist/5DzXBVmgkj6bPGmqetHY7Z?play=true"
+                            class="header__bottom-spotify row" target="_blank">
+                            <div class="header__bottom-logo">
+                                <span class="header__bottom-icon-spo"></span>
+                                <span class="header__bottom-title">
+                                    Visi<strong class="strong">on-air</strong> </span>
+                            </div>
+                            <span class="header__bottom-spo-link">Listen to our spotify playlist</span>
+                        </a>
+                        <ul class="header__bottom-icons row">
+                            <li class="header__icon-self col-sm-2" id="instagram">
+                                <a href="" class="header__bottom-item-a"></a>
+                            </li>
+                            <li class="header__icon-self col-sm-2" id="facebook">
+                                <a href="" class="header__bottom-item-a"></a>
+                            </li>
+                            <li class="header__icon-self col-sm-2" id="whatsapp">
+                                <a href="" class="header__bottom-item-a"></a>
+                            </li>
+                            <li class="header__icon-self col-sm-2" id="wechat">
+                                <a href="" class="header__bottom-item-a"></a>
+                            </li>
+                            <li class="header__icon-self col-sm-2" id="telegram">
+                                <a href="" class="header__bottom-item-a"></a>
+                            </li>
+                            <li class="header__icon-self col-sm-2" id="weibo">
+                                <a href="" class="header__bottom-item-a"></a>
+                            </li>
+                            <li class="header__icon-self col-sm-2" id="xiaohongshu">
+                                <a href="" class="header__bottom-item-a"></a>
+                            </li>
+                            <li class="header__icon-self col-sm-2" id="pinterest">
+                                <a href="" class="header__bottom-item-a"></a>
+                            </li>
+                            <li class="header__icon-self col-sm-2" id="youtube">
+                                <a href="" class="header__bottom-item-a"></a>
+                            </li>
+                            <li class="header__icon-self col-sm-2" id="linkedin">
+                                <a href="" class="header__bottom-item-a"></a>
+                            </li>
+                            <li class="header__icon-self col-sm-2" id="vk">
+                                <a href="" class="header__bottom-item-a"></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="header__block-language"></a>
+        <div class="header__block-right" ,>
+            <ul class="header__bottom-icons row p-0">
+                <li class="header__icon-self col-12 pb-5" id="instagram">
+                    <a href="" class="header__bottom-item-a"></a>
+                </li>
+                <li class="header__icon-self col-12 pb-5" id="facebook">
+                    <a href="" class="header__bottom-item-a"></a>
+                </li>
+                <li class="header__icon-self col-12 pb-5" id="whatsapp">
+                    <a href="" class="header__bottom-item-a"></a>
+                </li>
+                <li class="header__icon-self col-12 pb-5" id="wechat">
+                    <a href="" class="header__bottom-item-a"></a>
+                </li>
+                <li class="header__icon-self col-12 pb-5" id="telegram">
+                    <a href="" class="header__bottom-item-a"></a>
+                </li>
+                <li class="header__icon-self col-12 pb-5" id="weibo">
+                    <a href="" class="header__bottom-item-a"></a>
+                </li>
+                <li class="header__icon-self col-12 pb-5" id="xiaohongshu">
+                    <a href="" class="header__bottom-item-a"></a>
+                </li>
+                <li class="header__icon-self col-12 pb-5" id="pinterest">
+                    <a href="" class="header__bottom-item-a"></a>
+                </li>
+                <li class="header__icon-self col-12 pb-5" id="youtube">
+                    <a href="" class="header__bottom-item-a"></a>
+                </li>
+                <li class="header__icon-self col-12 pb-5" id="linkedin">
+                    <a href="" class="header__bottom-item-a"></a>
+                </li>
+                <li class="header__icon-self col-12 pb-5" id="vk">
+                    <a href="" class="header__bottom-item-a"></a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <main>
+
+
+        <div class="region">
+            <div class="historyWrapper">
+                <div class="historyWrapper__title">
+                    <h2>History</h2>
+                </div>
+                <div class="historyWrapper__textGroup">
+                    <p class="historyWrapper__paragraph">Visionnaire, founded by the company IPE, based in Bologna since
+                        1959,
+                        is a meta-luxury brand of reference in the sector of interior design Made in Italy, renowned for
+                        its one-of-a-kind design prowess tailored to respond to the desires of its clients.</p>
+
+                    <p class="historyWrapper__paragraph">Benefit company from 2021, Visionnaire defines its business as
+                        a
+                        promoter of positive value for the community and intends to pursue, in the exercise of economic
+                        activity, one or more positive effects - or reduce negative effects - towards people,
+                        communities, territories and environment.</p>
+
+                    <p class="historyWrapper__paragraph">The brand operates in over 55 countries, thanks to over 30
+                        exclusive
+                        monobrand stores and a network of department store and multibrand showrooms all over the world.
+                    </p>
+
+                    <p class="historyWrapper__paragraph">Since 2004 Visionnaire has formulated a distinctive style,
+                        based on
+                        lively experimentation on materials, volumes of unexpected poise and inimitable motifs that
+                        reveal the totally Italian background of the company. Thanks to collaboration with a team of
+                        eclectic, visionary Italian and foreign designers, the company is an ideal partner for bespoke
+                        proposals in residential and contract applications, luxury hotellerie, as well as the yachting
+                        and aviation sectors.</p>
+
+                    <p class="historyWrapper__paragraph">The brand bases its activity on the value of knowledge and
+                        continuing
+                        research on the concept of contemporary beauty, confirming its exceptional ability to create
+                        design projects and products of outstanding sartorial workmanship, fostering and restoring value
+                        to the skills of local artisans located across the Italian territory.</p>
+
+                    <p class="historyWrapper__paragraph">The meta-luxury of contents and values is reflected in the
+                        responsible
+                        use of materials, through technological research conducted by the company and investments to
+                        boost the efficiency of its chain of production. Visionnaire relies on a network of over 30
+                        crafts hubs located all over the country, enabling the company to create extraordinary, unique
+                        objects: mixing and matching materials, applying the skills of artisans to test, perfect and
+                        define new compositional and material solutions, defining the identity of every single product
+                        by making it unique and inimitable, though also ready for reproduction. Visionnaire also makes a
+                        rigorous, responsible commitment to its territory.</p>
+
+                    <p class="historyWrapper__paragraph">This desire to protect our natural heritage and human capital -
+                        outlined in the artbook-manifesto “Decàlogo” - leads to awareness that informs and orients the
+                        company’s cultural vision, from the selection of materials to the final touches of workmanship
+                        required by production cycles, taking on a precise, intense ethical position.</p>
+                </div>
+            </div>
+
+            <div class="timelineWrapper">
+
+
+                <!-- <div class="timelineWrapper__cardWrapper">
+
+
+                    <div class="timelineWrapper__imageSection">
+
+                        <img src="./images/region/Villa_1919_2.jpg" alt="" class="img-fluid">
+                        <img src="./images/region/Screenshot 2022-02-21 at 13.41.15_0.png" alt="" class="img-fluid">
+                        <img src="./images/region/Screenshot 2022-02-21 at 13.41.15 2.png" alt="" class="img-fluid">
+                        <img src="./images/region/feature image_1_2.jpg" alt="" class="img-fluid">
+                        <img src="./images/region/Cover 768_496_Alcova_2.jpg" alt="" class="img-fluid">
+                        <img src="" alt="" class="img-fluid">
+
+                    </div>
+                    <div class="timelineWrapper__mixedSection">
+                        <div class="timelineWrapper__mixedParagraph">
+                            <div class="timelineWrapper__title">
+                                <h2 class="odd">2021</h2>
+                            </div>
+                            <p>
+                                <a
+                                    href=''>Benefit
+                                    company</a>
+                                from 2021, Visionnaire defines its business as a promoter of positive value for the
+                                community and intends to pursue, in the exercise of economic activity, one or more
+                                positive effects - or reduce negative effects - towards people, communities, territories
+                                and environment.
+                            </p>
+                            <p>
+                                This year Visionnaire has inaugurated two new strategic flagship stores, located in
+                                <a href=''>London</a>
+                                and
+                                <a
+                                    href=''>Dubai</a>
+                                , confirming and celebrating its presence with direct stores all over the world. 
+                            </p>
+                            <p>
+                                On December Visionnaire launch the
+                                <a href=''>Beauty Tales</a>
+                                campaign, under the artistic direction of Eleonore Cavalli. Beauty Tales is not just a
+                                tale with a fifteenth-century atmosphere, but a reinterpretation of contemporary living,
+                                through a delicate photographic research that instills wonder.
+                            </p>
+                            <p>
+                                During Milan Design Week of September, Visionnaire unveil a striking installation in its
+                                showroom named
+                                <a href=''>Insulae</a>
+                                designed by Marco Bonelli and Marijana Radovic - aka m2atelier. Each island hosts a
+                                family of products from the
+                                <a
+                                    href=''>Caprice&nbsp;collection</a>
+                                designed by m2atelier. The main floor of the gallery also hosts products from the
+                                <a href=''>Babylon
+                                    Rack&nbsp;collection</a>
+                                designed by Alessandro La Spada, which are harmoniously integrated in the Insulae
+                                project.
+                            </p>
+                            <p>
+                                Also, on the occasion of the Design Week, Visionnaire to Alcova, the traveling Kermesse of the Fuorisalone conceived by Joseph Grima Valentina Ciuffi in 2018 and dedicated to designers, artists, galleries institutions united by a pioneering vision of the culture of design, innovation experimentation. Ideal stage for the installation “ <a href=''>De Rerum Natura</a> ” by Gunilla Zamboni, known as Gupica.
+                            </p>
+                            <p>
+                                Finally, 2021 is an year of  <a href=''>international design awards</a> for the brand: Admeto low table designed by Marco Piva winner 2021 Wallpaper* Design Awards, Best Curves category; Imagine armchair designed by Lipparin  results winner of the International Design & Architecture Awards Design Al, seating category. Lego low table and console designed by Draga&Aurel have been selected for the ADI Design Index 2021; Basket Armchair designed by winner of 2021 Archiproducts Design Awards, Outdoor category.
+                            </p>
+
+                        </div>
+
+                        <div class="timelineWrapper__mixedImg">
+
+                            <img src="./images/region/INS1.jpg" alt="" class="img-fluid">
+                            <img src="./images/region/Visionnaire Insulae_0284_edit_0_0_2.jpg" alt="" class="img-fluid">
+                            <img src="" alt="" class="img-fluid">
+
+                        </div>
+
+                    </div>
+                </div> -->
+
+
+            </div>
+        </div>
+
+
+
+    </main>
+    <footer class="footer">
+        <div class="footer__inside-footer">
+
+            <div class="footer__logo-footer">
+                <img src="./images/header/logo.svg" alt="">
+            </div>
+            <ul class="footer__link-container">
+                <li><a href="">
+                        Contact
+                    </a></li>
+                <li><a href="">
+                        Cookie Policy
+                    </a></li>
+                <li><a href="">
+                        Newsletter
+                    </a></li>
+                <li><a href="">
+                        Vision App
+                    </a></li>
+                <li><a href="" id="special-text">
+                        © IPE Srl - Zola Predosa (BO) Italia - P.IVA 03007721206
+                    </a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>

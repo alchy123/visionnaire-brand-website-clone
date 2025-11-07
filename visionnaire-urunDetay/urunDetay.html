@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./app.js" defer></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <title>Visionnaire Home Philosophy</title>
+</head>
+
+<body>
+    <header class="header">
+        <a href="homepage.html" id="logo-btn">
+            <img src="./images/header/logo.svg" alt="" class="header__logo">
+        </a>
+        <button class="header__block-menu">
+            <div class="header__button-wrapper">
+                <span class="header__hamburger-box">
+                    <span class="header__hamburger-inner"></span>
+                </span>
+                <span class="header__button-label header__button-label-open">Menu</span>
+                <span class="header__button-label header__button-label-close">Close</span>
+            </div>
+
+            <div class="header__language">
+                <a class="header__lngbox">EN</a>
+                <a class="header__lngbox">IT</a>
+                <a class="header__lngbox">RU</a>
+                <a class="header__lngbox">中文</a>
+                <a class="header__lngbox">&nbsp</a>
+            </div>
+        </button>
+        <button class="header__hamburger-box-mobile">
+            <span class="header__hamburger-inner-mobile"></span>
+        </button>
+        <div class="header__menus-container-mobile">
+            <div class="header__menu-mobile-logo">
+                <img src="./images/header/logo.svg" alt="logo">
+            </div>
+            <div class="header__menu-wrapper">
+                <div class="header__menu-mobile-languages row">
+                    <div class="header__lng-box col-2 lng-box-active">EN</div>
+                    <div class="header__lng-box col-2">IT</div>
+                    <div class="header__lng-box col-2">RU</div>
+                    <div class="header__lng-box col-2">中文</div>
+                </div>
+                <div class="header__menu-mobile-explain row">
+                    <ul>
+                        <li class="header__explain-text"><a href="">About us</a></li>
+                        <li class="header__explain-text"><a href="">Stores</a></li>
+                        <li class="header__explain-text"><a href="">Home philosophy</a></li>
+                        <li class="header__explain-text"><a href="">Collection</a></li>
+                        <li class="header__explain-text"><a href="">Arts & Crafts</a></li>
+                        <li class="header__explain-text"><a href="">News</a></li>
+                        <li class="header__explain-text"><a href="">Interiors</a></li>
+                        <li class="header__explain-text"><a href="">E-boutique</a></li>
+                        <li class="header__explain-text"><a href="">Bistrot</a></li>
+                        <li class="header__explain-text"><a href="">Wunderkammer</a></li>
+                    </ul>
+                </div>
+                <div class="header__menu-mobile-footer row">
+                    <div class="header__menu-mobile-groupOne">
+                        <ul class="header__menu-mobile-ul">
+                            <li class="header__menu-mobile-li"><a href="" class="header__menu-mobile-a">CONTACT</a></li>
+                            <li class="header__menu-mobile-li"><a href="" class="header__menu-mobile-a">COOKIE
+                                    POLICY</a></li>
+                            <li class="header__menu-mobile-li"><a href="" class="header__menu-mobile-a">NEWSLETTER</a>
+                            </li>
+                            <li class="header__menu-mobile-li"><a href="" class="header__menu-mobile-a">VISION APP</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="header__menu-mobile-groupTwo">
+                        <ul class="header__bottom-icons row">
+                            <li class="header__icon-self col-2" id="instagram">
+                                <a href="" class="header__bottom-item-a"></a>
+                            </li>
+                            <li class="header__icon-self col-2" id="facebook">
+                                <a href="" class="header__bottom-item-a"></a>
+                            </li>
+                            <li class="header__icon-self col-2" id="whatsapp">
+                                <a href="" class="header__bottom-item-a"></a>
+                            </li>
+                            <li class="header__icon-self col-2" id="wechat">
+                                <a href="" class="header__bottom-item-a"></a>
+                            </li>
+                            <li class="header__icon-self col-2" id="telegram">
+                                <a href="" class="header__bottom-item-a"></a>
+                            </li>
+                            <li class="header__icon-self col-2" id="weibo">
+                                <a href="" class="header__bottom-item-a"></a>
+                            </li>
+                            <li class="header__icon-self col-2" id="xiaohongshu">
+                                <a href="" class="header__bottom-item-a"></a>
+                            </li>
+                            <li class="header__icon-self col-2" id="pinterest">
+                                <a href="" class="header__bottom-item-a"></a>
+                            </li>
+                            <li class="header__icon-self col-2" id="youtube">
+                                <a href="" class="header__bottom-item-a"></a>
+                            </li>
+                            <li class="header__icon-self col-2" id="linkedin">
+                                <a href="" class="header__bottom-item-a"></a>
+                            </li>
+                            <li class="header__icon-self col-2" id="vk">
+                                <a href="" class="header__bottom-item-a"></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="header__menus-container">
+            <div class="header__menu-wrapper">
+                <div class="header_menu-logo-container col-12">
+                    <a href="/" rel="home" class="header__menus-logo">
+                        <img src="./images/header/logo.svg" alt="Home">
+                    </a>
+                </div>
+
+            </div>
+            <div class="header__group-text">
+                <div class="container-for-columns row">
+                    <div class="col-9">
+                        <div class="text-row-two row">
+                            <div class="text-group col-md-3 col-sm-6 col-12">
+                                <ul class="multiple-li">
+                                    <span> <b>ABOUT US</b> </span>
+                                    <li>DECALOGO</li>
+                                    <li>BENEFIT COMPANY</li>
+                                    <li>DESIGNERS</li>
+                                    <li>HISTORY</li>
+                                    <li>SUSTAINABILITY</li>
+                                </ul>
+                            </div>
+                            <div class="text-group col-md-3 col-sm-6 col-12">
+                                <ul class="multiple-li">
+                                    <span> <b>HOME PHILOSOPHY</b> </span>
+                                    <li>LIVINGROOM</li>
+                                    <li>DINING ROOM</li>
+                                    <li>Bedroom</li>
+                                    <li>Office room</li>
+                                    <li>Dehors</li>
+                                    <li>Foodroom</li>
+                                    <li>Wellness</li>
+                                    <li>Art Design</li>
+                                </ul>
+                            </div>
+                            <div class="text-group col-md-3 col-sm-6 col-12">
+                                <ul class="multiple-li">
+                                    <span> <b>Collection</b> </span>
+                                    <li>Rooms</li>
+                                    <li>Products</li>
+                                    <li>Catalogues</li>
+                                    <li>Press review</li>
+                                </ul>
+                            </div>
+                            <div class="text-group col-md-3 col-sm-6 col-12">
+                                <ul class="multiple-li">
+                                    <span> <b>News</b> </span>
+                                    <li>Awards</li>
+                                    <li>Pressbook</li>
+                                    <li>V-Inside</li>
+                                    <li>Video</li>
+                                    <li>Live</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="text-row-one row">
+                            <div class="text-group col-md-3 col-sm-6 col-12">
+                                <ul class="ul-hover">
+                                    <span> <b>E-boutique</b> </span>
+                                    <li>Accessories Capsule Collection, an original narrative approach translated into
+                                        expressive Art Design vocabulary</li>
+                                </ul>
+                            </div>
+                            <div class="text-group col-md-3 col-sm-6 col-12">
+                                <ul class="ul-hover">
+                                    <span> <b>Bistrot</b> </span>
+                                    <li>A project of love and appreciation of Italian culinary culture</li>
+                                </ul>
+                            </div>
+                            <div class="text-group col-md-3 col-sm-6 col-12">
+                                <ul class="ul-hover">
+                                    <span> <b>Wunderkammer</b> </span>
+                                    <li>Art in all its forms as source of inspiration</li>
+                                </ul>
+                            </div>
+                            <div class="text-group col-md-3 col-sm-6 col-12">
+                                <ul class="ul-hover">
+                                    <span> <b>Stores</b> </span>
+                                    <li>Visionnaire is present in more than 55 countries</li>
+                                </ul>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+                    <div class="text-row-tree col-md-3 col-sm-6 col-12">
+                        <!-- <div class="text-row-one col-4"> -->
+                        <div class="text-group col-12">
+                            <ul class="ul-hover">
+                                <span> <b>Arts & Crafts</b> </span>
+                                <li>Aesthetic research and craftsmanship for unique decorative proposals</li>
+                            </ul>
+                        </div>
+                        <div class="text-group col-12">
+                            <ul class="ul-hover">
+                                <span> <b>Interiors</b> </span>
+                                <li>A selection of our best projects, realized & in progress</li>
+                            </ul>
+                        </div>
+                        <!-- </div> -->
+                    </div>
+                </div>
+                <div class="latest-updates">
+                    Latest Updates
+                </div>
+                <div class="header__bottom-row row">
+                    <a class="header__div col-md-8" id="div1">
+                        <img src="./images/region/FEATURED copy.jpg" alt="" class="img-fluid col-md-4 col-sm-6 col-12">
+                        <div class="header__div-text-group col-md-8 col-sm-6 col-12">
+                            <div class="header__div-title">News</div>
+                            <div class="header__div-subtitle">
+                                Milan Design Gallery Virtual Experience</div>
+                            <div class="header__div-desc">
+                                Experience the new virtual tour of our flagship store in Milan. We will guide you
+                                through the
+                                Design Gallery that Visionnaire has transformed over the years into the pure expression
+                                of its
+                                own philosophy of living, in the representation of a real lifestyle.
+                            </div>
+                        </div>
+                    </a>
+                    <div class="header__bottom-right col-md-4">
+                        <div class="header__bottom-textLinks row">
+                            <ul class="header__row-ul row">
+                                <li class="header__li-text-link col-6">Contact</li>
+                                <li class="header__li-text-link col-6">Cookie Policy</li>
+                                <li class="header__li-text-link col-6">Newsletter </li>
+                                <li class="header__li-text-link col-6">Vision App</li>
+                            </ul>
+                        </div>
+                        <a href="https://open.spotify.com/playlist/5DzXBVmgkj6bPGmqetHY7Z?play=true"
+                            class="header__bottom-spotify row" target="_blank">
+                            <div class="header__bottom-logo">
+                                <span class="header__bottom-icon-spo"></span>
+                                <span class="header__bottom-title">
+                                    Visi<strong class="strong">on-air</strong> </span>
+                            </div>
+                            <span class="header__bottom-spo-link">Listen to our spotify playlist</span>
+                        </a>
+                        <ul class="header__bottom-icons row">
+                            <li class="header__icon-self col-sm-2" id="instagram">
+                                <a href="" class="header__bottom-item-a"></a>
+                            </li>
+                            <li class="header__icon-self col-sm-2" id="facebook">
+                                <a href="" class="header__bottom-item-a"></a>
+                            </li>
+                            <li class="header__icon-self col-sm-2" id="whatsapp">
+                                <a href="" class="header__bottom-item-a"></a>
+                            </li>
+                            <li class="header__icon-self col-sm-2" id="wechat">
+                                <a href="" class="header__bottom-item-a"></a>
+                            </li>
+                            <li class="header__icon-self col-sm-2" id="telegram">
+                                <a href="" class="header__bottom-item-a"></a>
+                            </li>
+                            <li class="header__icon-self col-sm-2" id="weibo">
+                                <a href="" class="header__bottom-item-a"></a>
+                            </li>
+                            <li class="header__icon-self col-sm-2" id="xiaohongshu">
+                                <a href="" class="header__bottom-item-a"></a>
+                            </li>
+                            <li class="header__icon-self col-sm-2" id="pinterest">
+                                <a href="" class="header__bottom-item-a"></a>
+                            </li>
+                            <li class="header__icon-self col-sm-2" id="youtube">
+                                <a href="" class="header__bottom-item-a"></a>
+                            </li>
+                            <li class="header__icon-self col-sm-2" id="linkedin">
+                                <a href="" class="header__bottom-item-a"></a>
+                            </li>
+                            <li class="header__icon-self col-sm-2" id="vk">
+                                <a href="" class="header__bottom-item-a"></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="header__block-language"></a>
+        <div class="header__block-right" ,>
+            <ul class="header__bottom-icons row p-0">
+                <li class="header__icon-self col-12 pb-5" id="instagram">
+                    <a href="" class="header__bottom-item-a"></a>
+                </li>
+                <li class="header__icon-self col-12 pb-5" id="facebook">
+                    <a href="" class="header__bottom-item-a"></a>
+                </li>
+                <li class="header__icon-self col-12 pb-5" id="whatsapp">
+                    <a href="" class="header__bottom-item-a"></a>
+                </li>
+                <li class="header__icon-self col-12 pb-5" id="wechat">
+                    <a href="" class="header__bottom-item-a"></a>
+                </li>
+                <li class="header__icon-self col-12 pb-5" id="telegram">
+                    <a href="" class="header__bottom-item-a"></a>
+                </li>
+                <li class="header__icon-self col-12 pb-5" id="weibo">
+                    <a href="" class="header__bottom-item-a"></a>
+                </li>
+                <li class="header__icon-self col-12 pb-5" id="xiaohongshu">
+                    <a href="" class="header__bottom-item-a"></a>
+                </li>
+                <li class="header__icon-self col-12 pb-5" id="pinterest">
+                    <a href="" class="header__bottom-item-a"></a>
+                </li>
+                <li class="header__icon-self col-12 pb-5" id="youtube">
+                    <a href="" class="header__bottom-item-a"></a>
+                </li>
+                <li class="header__icon-self col-12 pb-5" id="linkedin">
+                    <a href="" class="header__bottom-item-a"></a>
+                </li>
+                <li class="header__icon-self col-12 pb-5" id="vk">
+                    <a href="" class="header__bottom-item-a"></a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <main>
+
+
+        <div class="region">
+            <div class="topSection">
+
+                <div class="topSection__pageCover">
+
+                    <div class="topSection__image-wrapper">
+                        <div class="topSection__image"></div>
+                    </div>
+                    <div class="topSection__pageCover-text">
+
+                        <div class="topSection__textTitle">
+                            <h2>Anthem</h2>
+                        </div>
+
+                        <div class="topSection__subtitle">
+                            <a href="">Livingroom</a>
+                        </div>
+
+                        <div class="topSection__paragraph">
+                            <p>The Anthem system is a seating program with flexible modular design and versatile,
+                                contemporary appeal.&nbsp;</p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <nav class="topSection__links">
+                    <ol>
+                        <li>
+                            <a href="/">Home</a>
+                        </li>
+                        <li class="before-links">
+                            <a href="">Livingroom</a>
+                        </li>
+                        <li class="before-links">
+                            Anthem
+                        </li>
+                    </ol>
+                </nav>
+
+                <div class="topSection__imageSection">
+
+                    <div class="topSection__img topSection__full-image row mt-5 mb-5">
+                        <img src="./images/region/Visionnaire-2020_2779.jpg" alt="" class="col-12 img-fluid image">
+                    </div>
+
+                    <div class="topSection__img topSection__full-image row mt-5 mb-5">
+                        <img src="./images/region/Visionnaire-2020_2722.jpg" alt="" class="col-12 img-fluid image">
+                    </div>
+
+                    <div
+                        class="topSection__image-halfCont row  text-center d-flex justify-content-evenly align-items-center align-content-center mt-5 mb-5">
+
+
+                        <img src="./images/region/2020-Whitney-armchair_02.jpg" alt="" class="col-sm-5 img-fluid image">
+
+
+
+                        <img src="./images/region/michele_astolfi.jpg" alt="" class="col-sm-5 img-fluid image">
+
+
+                    </div>
+                    <div
+                        class="topSection__image-halfCont row  text-center d-flex justify-content-evenly align-items-center align-content-center mt-5 mb-5">
+
+
+                        <img src="./images/region/Visionnaire-2020_2784.jpg" alt="" class="col-sm-5 img-fluid image">
+
+
+
+                        <img src="./images/region/Visionnaire-2020_2746_0.jpg" alt="" class="col-sm-5 img-fluid image">
+
+
+                    </div>
+
+                    <div class="topSection__img topSection__odd-image row d-flex justify-content-center mt-5 mb-5">
+                        <img src="./images/region/2020-Mondrian_low-table_03.jpg" alt=""
+                            class="text-center col-sm-5 img-fluid image">
+                    </div>
+
+                    <div
+                        class="topSection__image-halfCont row   text-center d-flex justify-content-evenly align-items-center align-content-center mt-5 mb-5">
+
+
+                        <img src="./images/region/2020-Alcazar_chandelier_01.jpg" alt=""
+                            class="col-sm-5 img-fluid image">
+
+
+
+                        <img src="./images/region/Visionnaire-2020_2751.jpg" alt="" class="col-sm-5 img-fluid image">
+
+
+                    </div>
+
+                    <div class="topSection__img topSection__full-image row mt-5 mb-5">
+                        <img src="./images/region/2020-Alcazar_chandelier_02.jpg" alt="" class="col-12 img-fluid image">
+                    </div>
+
+                </div>
+
+                <div class="cardDivs row d-flex justify-content-evenly align-items-center">
+                    <div class="cardDiv cardDiv__CardDivOne col-11 col-md-5 mb-md-0 mb-3">
+                        <img src="./images/region/fabio_bonfa.jpeg" alt="" class="img-fluid">
+                        <div class="cardDiv__title">Designer</div>
+                        <div class="cardDiv__subtitle">Fabio Bonfà</div>
+                        <div class="cardDiv__paragraphCont">
+                            <p>Fabio Bonfà is an Italian architect and designer, who was formed among Italy, Spain and
+                                Holland; he has worked in different fields, from urban planning to industrial design,
+                                building a multidisciplinary and original design approach. Head of the interior design
+                                department of VISIONNAIRE from 2012, he is in charge of control and management of the
+                                entire nterior design process, developing a huge range of high end projects worldwide
+                                (hotels, showrooms, and private clients). This has allowed him to face and deal with
+                                different cultures and needs. His goal is to develop an aesthetic out of time, not
+                                linked to the current fashion, but always with strong roots in the Italian tradition.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="cardDiv cardDiv__CardDivTwo col-11 col-md-5 mt-md-0 mt-5">
+                        <img src="./images/region/michele_astolfi.jpg" alt="" class="img-fluid">
+                        <div class="cardDiv__title">Artist</div>
+                        <div class="cardDiv__subtitle">Michele Astolfi</div>
+                        <div class="cardDiv__paragraphCont">
+                            <p>Born in Bologna, he completes his studies through Italy, Switzerland, United States and
+                                Paris. Being a fan of photography and of digital processing, he experiments the
+                                combination between the image and the different materials such as fossil wood, crystals,
+                                natural stone and steel.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sliderSection">
+                <h2>Other Livingroom</h2>
+                <div class="sliderCont">
+                    <div class="sliderCont__view-content">
+                        <div class="sliderCont__slickViews">
+                            <div class="sliderCont__slick-track">
+
+                                <div class="sliderCont__slider-item col-3">
+                                    <img src="./images/region/slider/Adele_livingroom_01_0.jpg" alt="" class="img-fluid">
+                                    <div class="sliderCont__title">
+                                        <h2>Adele</h2>
+                                    </div>
+
+                                </div>
+
+                                <div class="sliderCont__slider-item col-3">
+                                    <img src="./images/region/slider/CaFoscari_livingroom_01.jpg" alt="" class="img-fluid">
+                                    <div class="sliderCont__title">
+                                        <h2>Ca' Foscari </h2>
+                                    </div>
+
+                                </div>
+
+                                <div class="sliderCont__slider-item col-3">
+                                    <img src="./images/region/slider/Douglas_livingroom_01_1.jpg" alt="" class="img-fluid">
+                                    <div class="sliderCont__title">
+                                        <h2>Douglas</h2>
+                                    </div>
+                                </div>
+
+                                <div class="sliderCont__slider-item col-3">
+                                    <img src="./images/region/slider/DonovanSquare_livingroom_01.jpg" alt="" class="img-fluid">
+                                    <div class="sliderCont__title">
+                                        <h2>Donovan Square</h2>
+                                    </div>
+
+                                </div>
+
+                                <div class="sliderCont__slider-item col-3">
+                                    <img src="./images/region/slider/DonovanRoll_livingroom_01.jpg" alt="" class="img-fluid">
+                                    <div class="sliderCont__title">
+                                        <h2>Donovan Roll</h2>
+                                    </div>
+
+                                </div>
+
+                                <div class="sliderCont__slider-item col-3">
+                                    <img src="./images/region/slider/Miller_livingroom_01.jpg" alt="" class="img-fluid">
+                                    <div class="sliderCont__title">
+                                        <h2>Miller</h2>
+                                    </div>
+                                </div>
+
+                                <div class="sliderCont__slider-item col-3">
+                                    <img src="./images/region/slider/Osborne_office-room_01.jpg" alt="" class="img-fluid">
+                                    <div class="sliderCont__title">
+                                        <h2>Osborne</h2>
+                                    </div>
+
+                                </div>
+
+                                <div class="sliderCont__slider-item col-3">
+                                    <img src="./images/region/slider/Montparnasse_livingroom_01_0.jpg" alt="" class="img-fluid">
+                                    <div class="sliderCont__title">
+                                        <h2>Montparnasse</h2>
+                                    </div>
+
+                                </div>
+
+                                <div class="sliderCont__slider-item col-3">
+                                    <img src="./images/region/slider/Mercury_livingroom_01.jpg" alt="" class="img-fluid">
+                                    <div class="sliderCont__title">
+                                        <h2>Mercury</h2>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!--! right and left buttons  -->
+                        <nav class="sliderCont__buttonsNav">
+                            <button type="button" class="sliderCont__leftbtn">Previous</button>
+                            <button type="button" class="sliderCont__rightbtn">Next</button>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer__inside-footer">
+
+            <div class="footer__logo-footer">
+                <img src="./images/header/logo.svg" alt="">
+            </div>
+            <ul class="footer__link-container">
+                <li><a href="">
+                        Contact
+                    </a></li>
+                <li><a href="">
+                        Cookie Policy
+                    </a></li>
+                <li><a href="">
+                        Newsletter
+                    </a></li>
+                <li><a href="">
+                        Vision App
+                    </a></li>
+                <li><a href="" id="special-text">
+                        © IPE Srl - Zola Predosa (BO) Italia - P.IVA 03007721206
+                    </a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>

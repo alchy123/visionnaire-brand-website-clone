@@ -1,0 +1,946 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./app.js" defer></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <title>Visionnaire Home Philosophy</title>
+</head>
+
+<body>
+    <header class="header">
+        <a href="homepage.html" id="logo-btn">
+            <img src="./images/header/logo.svg" alt="" class="header__logo">
+        </a>
+
+        <button class="header__block-menu">
+
+            <div class="header__button-wrapper">
+                <span class="header__hamburger-box">
+                    <span class="header__hamburger-inner"></span>
+                </span>
+                <span class="header__button-label header__button-label-open">Menu</span>
+                <span class="header__button-label header__button-label-close">Close</span>
+            </div>
+
+            <div class="header__language">
+                <a class="header__lngbox">EN</a>
+                <a class="header__lngbox">IT</a>
+                <a class="header__lngbox">RU</a>
+                <a class="header__lngbox">中文</a>
+                <a class="header__lngbox">&nbsp</a>
+            </div>
+
+        </button>
+        <button class="header__hamburger-box-mobile">
+            <span class="header__hamburger-inner-mobile"></span>
+        </button>
+        <div class="header__menus-container-mobile">
+            <div class="header__menu-mobile-logo">
+                <img src="./images/header/logo.svg" alt="logo">
+            </div>
+            <div class="header__menu-wrapper">
+                <div class="header__menu-mobile-languages row">
+                    <div class="header__lng-box col-2 lng-box-active">EN</div>
+                    <div class="header__lng-box col-2">IT</div>
+                    <div class="header__lng-box col-2">RU</div>
+                    <div class="header__lng-box col-2">中文</div>
+                </div>
+                <div class="header__menu-mobile-explain row">
+                    <ul>
+                        <li class="header__explain-text"><a href="">About us</a></li>
+                        <li class="header__explain-text"><a href="">Stores</a></li>
+                        <li class="header__explain-text"><a href="">Home philosophy</a></li>
+                        <li class="header__explain-text"><a href="">Collection</a></li>
+                        <li class="header__explain-text"><a href="">Arts & Crafts</a></li>
+                        <li class="header__explain-text"><a href="">News</a></li>
+                        <li class="header__explain-text"><a href="">Interiors</a></li>
+                        <li class="header__explain-text"><a href="">E-boutique</a></li>
+                        <li class="header__explain-text"><a href="">Bistrot</a></li>
+                        <li class="header__explain-text"><a href="">Wunderkammer</a></li>
+                    </ul>
+                </div>
+                <div class="header__menu-mobile-footer row">
+                    <div class="header__menu-mobile-groupOne">
+                        <ul class="header__menu-mobile-ul">
+                            <li class="header__menu-mobile-li"><a href="" class="header__menu-mobile-a">CONTACT</a></li>
+                            <li class="header__menu-mobile-li"><a href="" class="header__menu-mobile-a">COOKIE POLICY</a></li>
+                            <li class="header__menu-mobile-li"><a href="" class="header__menu-mobile-a">NEWSLETTER</a></li>
+                            <li class="header__menu-mobile-li"><a href="" class="header__menu-mobile-a">VISION APP</a></li>
+                        </ul>
+                    </div>
+                    <div class="header__menu-mobile-groupTwo">
+                        <ul class="header__bottom-icons row">
+                            <li class="header__icon-self col-2" id="instagram">
+                                <a href="" class="header__bottom-item-a"></a>
+                            </li>
+                            <li class="header__icon-self col-2" id="facebook">
+                                <a href="" class="header__bottom-item-a"></a>
+                            </li>
+                            <li class="header__icon-self col-2" id="whatsapp">
+                                <a href="" class="header__bottom-item-a"></a>
+                            </li>
+                            <li class="header__icon-self col-2" id="wechat">
+                                <a href="" class="header__bottom-item-a"></a>
+                            </li>
+                            <li class="header__icon-self col-2" id="telegram">
+                                <a href="" class="header__bottom-item-a"></a>
+                            </li>
+                            <li class="header__icon-self col-2" id="weibo">
+                                <a href="" class="header__bottom-item-a"></a>
+                            </li>
+                            <li class="header__icon-self col-2" id="xiaohongshu">
+                                <a href="" class="header__bottom-item-a"></a>
+                            </li>
+                            <li class="header__icon-self col-2" id="pinterest">
+                                <a href="" class="header__bottom-item-a"></a>
+                            </li>
+                            <li class="header__icon-self col-2" id="youtube">
+                                <a href="" class="header__bottom-item-a"></a>
+                            </li>
+                            <li class="header__icon-self col-2" id="linkedin">
+                                <a href="" class="header__bottom-item-a"></a>
+                            </li>
+                            <li class="header__icon-self col-2" id="vk">
+                                <a href="" class="header__bottom-item-a"></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="header__menus-container">
+            <div class="header__menu-wrapper">
+                <div class="header_menu-logo-container col-12">
+                    <a href="/" rel="home" class="header__menus-logo">
+                        <img src="./images/header/logo.svg" alt="Home">
+                    </a>
+                </div>
+
+            </div>
+            <div class="header__group-text">
+                <div class="container-for-columns row">
+                    <div class="col-9">
+                        <div class="text-row-two row">
+                            <div class="text-group col-md-3 col-sm-6 col-12">
+                                <ul class="multiple-li">
+                                    <span> <b>ABOUT US</b> </span>
+                                    <li>DECALOGO</li>
+                                    <li>BENEFIT COMPANY</li>
+                                    <li>DESIGNERS</li>
+                                    <li>HISTORY</li>
+                                    <li>SUSTAINABILITY</li>
+                                </ul>
+                            </div>
+                            <div class="text-group col-md-3 col-sm-6 col-12">
+                                <ul class="multiple-li">
+                                    <span> <b>HOME PHILOSOPHY</b> </span>
+                                    <li>LIVINGROOM</li>
+                                    <li>DINING ROOM</li>
+                                    <li>Bedroom</li>
+                                    <li>Office room</li>
+                                    <li>Dehors</li>
+                                    <li>Foodroom</li>
+                                    <li>Wellness</li>
+                                    <li>Art Design</li>
+                                </ul>
+                            </div>
+                            <div class="text-group col-md-3 col-sm-6 col-12">
+                                <ul class="multiple-li">
+                                    <span> <b>Collection</b> </span>
+                                    <li>Rooms</li>
+                                    <li>Products</li>
+                                    <li>Catalogues</li>
+                                    <li>Press review</li>
+                                </ul>
+                            </div>
+                            <div class="text-group col-md-3 col-sm-6 col-12">
+                                <ul class="multiple-li">
+                                    <span> <b>News</b> </span>
+                                    <li>Awards</li>
+                                    <li>Pressbook</li>
+                                    <li>V-Inside</li>
+                                    <li>Video</li>
+                                    <li>Live</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="text-row-one row">
+                            <div class="text-group col-md-3 col-sm-6 col-12">
+                                <ul class="ul-hover">
+                                    <span> <b>E-boutique</b> </span>
+                                    <li>Accessories Capsule Collection, an original narrative approach translated into
+                                        expressive Art Design vocabulary</li>
+                                </ul>
+                            </div>
+                            <div class="text-group col-md-3 col-sm-6 col-12">
+                                <ul class="ul-hover">
+                                    <span> <b>Bistrot</b> </span>
+                                    <li>A project of love and appreciation of Italian culinary culture</li>
+                                </ul>
+                            </div>
+                            <div class="text-group col-md-3 col-sm-6 col-12">
+                                <ul class="ul-hover">
+                                    <span> <b>Wunderkammer</b> </span>
+                                    <li>Art in all its forms as source of inspiration</li>
+                                </ul>
+                            </div>
+                            <div class="text-group col-md-3 col-sm-6 col-12">
+                                <ul class="ul-hover">
+                                    <span> <b>Stores</b> </span>
+                                    <li>Visionnaire is present in more than 55 countries</li>
+                                </ul>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+                    <div class="text-row-tree col-md-3 col-sm-6 col-12">
+                        <!-- <div class="text-row-one col-4"> -->
+                        <div class="text-group col-12">
+                            <ul class="ul-hover">
+                                <span> <b>Arts & Crafts</b> </span>
+                                <li>Aesthetic research and craftsmanship for unique decorative proposals</li>
+                            </ul>
+                        </div>
+                        <div class="text-group col-12">
+                            <ul class="ul-hover">
+                                <span> <b>Interiors</b> </span>
+                                <li>A selection of our best projects, realized & in progress</li>
+                            </ul>
+                        </div>
+                        <!-- </div> -->
+                    </div>
+                </div>
+                <div class="latest-updates">
+                    Latest Updates
+                </div>
+                <div class="header__bottom-row row">
+                    <a class="header__div col-md-8" id="div1">
+                        <img src="./images/region/FEATURED copy.jpg" alt="" class="img-fluid col-md-4 col-sm-6 col-12">
+                        <div class="header__div-text-group col-md-8 col-sm-6 col-12">
+                            <div class="header__div-title">News</div>
+                            <div class="header__div-subtitle">
+                                Milan Design Gallery Virtual Experience</div>
+                            <div class="header__div-desc">
+                                Experience the new virtual tour of our flagship store in Milan. We will guide you
+                                through the
+                                Design Gallery that Visionnaire has transformed over the years into the pure expression
+                                of its
+                                own philosophy of living, in the representation of a real lifestyle.
+                            </div>
+                        </div>
+                    </a>
+                    <div class="header__bottom-right col-md-4">
+                        <div class="header__bottom-textLinks row">
+                            <ul class="header__row-ul row">
+                                <li class="header__li-text-link col-6">Contact</li>
+                                <li class="header__li-text-link col-6">Cookie Policy</li>
+                                <li class="header__li-text-link col-6">Newsletter </li>
+                                <li class="header__li-text-link col-6">Vision App</li>
+                            </ul>
+                        </div>
+                        <a href="https://open.spotify.com/playlist/5DzXBVmgkj6bPGmqetHY7Z?play=true"
+                            class="header__bottom-spotify row" target="_blank">
+                            <div class="header__bottom-logo">
+                                <span class="header__bottom-icon-spo"></span>
+                                <span class="header__bottom-title">
+                                    Visi<strong class="strong">on-air</strong> </span>
+                            </div>
+                            <span class="header__bottom-spo-link">Listen to our spotify playlist</span>
+                        </a>
+                        <ul class="header__bottom-icons row">
+                            <li class="header__icon-self col-sm-2" id="instagram">
+                                <a href="" class="header__bottom-item-a"></a>
+                            </li>
+                            <li class="header__icon-self col-sm-2" id="facebook">
+                                <a href="" class="header__bottom-item-a"></a>
+                            </li>
+                            <li class="header__icon-self col-sm-2" id="whatsapp">
+                                <a href="" class="header__bottom-item-a"></a>
+                            </li>
+                            <li class="header__icon-self col-sm-2" id="wechat">
+                                <a href="" class="header__bottom-item-a"></a>
+                            </li>
+                            <li class="header__icon-self col-sm-2" id="telegram">
+                                <a href="" class="header__bottom-item-a"></a>
+                            </li>
+                            <li class="header__icon-self col-sm-2" id="weibo">
+                                <a href="" class="header__bottom-item-a"></a>
+                            </li>
+                            <li class="header__icon-self col-sm-2" id="xiaohongshu">
+                                <a href="" class="header__bottom-item-a"></a>
+                            </li>
+                            <li class="header__icon-self col-sm-2" id="pinterest">
+                                <a href="" class="header__bottom-item-a"></a>
+                            </li>
+                            <li class="header__icon-self col-sm-2" id="youtube">
+                                <a href="" class="header__bottom-item-a"></a>
+                            </li>
+                            <li class="header__icon-self col-sm-2" id="linkedin">
+                                <a href="" class="header__bottom-item-a"></a>
+                            </li>
+                            <li class="header__icon-self col-sm-2" id="vk">
+                                <a href="" class="header__bottom-item-a"></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="header__block-right",>
+            <ul class="header__bottom-icons row p-0">
+                <li class="header__icon-self col-12 pb-5" id="instagram">
+                    <a href="" class="header__bottom-item-a"></a>
+                </li>
+                <li class="header__icon-self col-12 pb-5" id="facebook">
+                    <a href="" class="header__bottom-item-a"></a>
+                </li>
+                <li class="header__icon-self col-12 pb-5" id="whatsapp">
+                    <a href="" class="header__bottom-item-a"></a>
+                </li>
+                <li class="header__icon-self col-12 pb-5" id="wechat">
+                    <a href="" class="header__bottom-item-a"></a>
+                </li>
+                <li class="header__icon-self col-12 pb-5" id="telegram">
+                    <a href="" class="header__bottom-item-a"></a>
+                </li>
+                <li class="header__icon-self col-12 pb-5" id="weibo">
+                    <a href="" class="header__bottom-item-a"></a>
+                </li>
+                <li class="header__icon-self col-12 pb-5" id="xiaohongshu">
+                    <a href="" class="header__bottom-item-a"></a>
+                </li>
+                <li class="header__icon-self col-12 pb-5" id="pinterest">
+                    <a href="" class="header__bottom-item-a"></a>
+                </li>
+                <li class="header__icon-self col-12 pb-5" id="youtube">
+                    <a href="" class="header__bottom-item-a"></a>
+                </li>
+                <li class="header__icon-self col-12 pb-5" id="linkedin">
+                    <a href="" class="header__bottom-item-a"></a>
+                </li>
+                <li class="header__icon-self col-12 pb-5" id="vk">
+                    <a href="" class="header__bottom-item-a"></a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+
+    <main>
+        <div class="region">
+            <div class="region__video-container">
+                <video autoplay="" loop="" muted=""
+                    poster="https://i.vimeocdn.com/video/1465581779-04c457292cc74aa0ed58297f395e3b15d779093a652890eb70cccddb70d15f69-d_1920x1080?r=pad"
+                    class="region__video">
+                    <source
+                        src="https://player.vimeo.com/progressive_redirect/playback/728095462/rendition/1080p/file.mp4?loc=external&oauth2_token_id=1307449865&signature=6c1bc1f2da3745bdb61138c57b39c19dbda6b202a02d22496c1fd3b0be168afe"
+                        type="video/mp4">
+                </video>
+            </div>
+            <!-- ! FIELD ITEM 1 -->
+            <div class="field-item">
+                <a href="" class="region__field-group-link link-wrapper">
+                    <div class="region__group-text">
+                        <div class="region__field-title">Salone del Mobile. Milano 2022</div>
+                        <div class="region__field-subtitle">INTERNATIONAL FAIR</div>
+                        <div class="region__field-text-cont">
+                            <p>
+                                Visionnaire is proud to present
+                                <strong>Mythica </strong>
+                                and
+                                <strong>Nature's Jewel Box 2022</strong>
+                                Collections during the
+                                <strong>Salone del Mobile. Milano</strong>
+                                ,
+                                <strong>June 7 - 12, 2022</strong>
+                                .
+                            </p>
+                        </div>
+                    </div>
+                    <div class="region__image-field">
+                        <img class="region__field-image" src="./images/region/SaloneDel-Img.jpeg" alt="">
+                    </div>
+                </a>
+            </div>
+            <!-- ! FIELD ITEM 2 REWERSE-->
+            <div class="field-item">
+                <a href="" class="region__field-group-link link-wrapper image-reverse">
+                    <div class="region__group-text padding-minus">
+                        <div class="region__field-title">BOAT SUPERYACHT DESIGN FESTIVAL 2022</div>
+                        <div class="region__field-subtitle">EVENT</div>
+                        <div class="region__field-text-cont">
+                            <p>
+                                As event partner of BOAT International at the
+                                <strong>Superyacht Design Festival 2022 </strong>
+                                , Visionnaire featured a special exhibition layout at The Mall in Milan to show its
+                                <strong>one-of-a-kind </strong>
+                                design approach, confirming its leading role in the sector.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="region__image-field">
+                        <img class="region__field-image" src="./images/region/Boat_Home Page.jpg" alt="">
+                    </div>
+                </a>
+            </div>
+            <!-- ! FIELD ITEM 3 -->
+            <div class="field-item">
+                <a href="" class="region__field-group-link link-wrapper">
+                    <div class="region__group-text">
+                        <div class="region__field-title">STARLIGHT</div>
+                        <div class="region__field-subtitle">NEW COLLECTION</div>
+                        <div class="region__field-text-cont">
+                            <p>
+                                A horizon of novelty for a young, evolving clientele.
+                                <strong>Starlight</strong>
+                                is the new capsule collection presented by Visionnaire to outline a metropolitan and
+                                emotional lifestyle.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="region__image-field">
+                        <img class="region__field-image" src="./images/region/Starlight_Home Page.jpg" alt="">
+                    </div>
+                </a>
+            </div>
+            <!-- ! FIELD ITEM 4 REWERSE-->
+            <div class="field-item">
+                <a href="" class="region__field-group-link link-wrapper image-reverse">
+                    <div class="region__group-text padding-minus">
+                        <div class="region__field-title">HOMO FABER</div>
+                        <div class="region__field-subtitle">International event</div>
+                        <div class="region__field-text-cont">
+                            <p>
+                                Visionnaire continuously participates in international events related to arts and crafts
+                                and design. This time, the brand takes part in the
+                                <strong>Homo Faber </strong>
+                                project, which this year has at The Mall in Milan to show its
+                                <strong>15 exhibitions with 22 international curators.</strong>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="region__image-field">
+                        <img class="region__field-image" src="./images/region/Homo Faber_Home Page.jpg" alt="">
+                    </div>
+                </a>
+            </div>
+            <!-- ! FIELD ITEM 5 -->
+            <div class="field-item">
+                <a href="" class="region__field-group-link link-wrapper">
+                    <div class="region__group-text">
+                        <div class="region__field-title">DARSENA DEL SALE</div>
+                        <div class="region__field-subtitle">Architizer A+Awards 2022 </div>
+                        <div class="region__field-text-cont">
+                            <p>
+                                Visionnaire's project
+                                <strong>Darsena del Sale</strong>
+                                won the
+                                <strong>2022 Architizer A+Awards Popular Choice</strong>
+                                in the
+                                <strong>Architecture + Water category</strong>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="region__image-field">
+                        <img class="region__field-image" src="./images/region/For homepage_0.jpg" alt="">
+                    </div>
+                </a>
+            </div>
+            <!-- ! FIELD ITEM 6 REWERSE-->
+            <div class="field-item">
+                <a href="" class="region__field-group-link link-wrapper image-reverse">
+                    <div class="region__group-text padding-minus">
+                        <div class="region__field-title">VISIONNAIRE NFT</div>
+                        <div class="region__field-subtitle">Apollo Belvedere</div>
+                        <div class="region__field-text-cont">
+                            <p>
+                                Visionnaire NFT established and launched in April 2022, is a project by Visionnaire
+                                which investigates the innovative art and design methods granted by the NFT
+                                (Non-FungibleTokens) system and Web3. On the occasion of the 60th Edition of Salone del
+                                Mobile in Milano, Visionnaire presents “Apollo Belvedere” on the 6th of June in
+                                Wunderkammer Gallery, Visionnaire’s showroom in Piazza Cavour 3, Milano. Visionnaire’s
+                                expertise in the production of luxury furniture formed a strong bond between digital
+                                design and the tradition of craftsmanship.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="region__image-field">
+                        <img class="region__field-image" src="./images/region/NFT-2.gif" alt="">
+                    </div>
+                </a>
+            </div>
+            <!-- ! FIELD ITEM 7 -->
+            <div class="field-item">
+                <a href="" class="region__field-group-link link-wrapper">
+                    <div class="region__group-text">
+                        <div class="region__field-title">BEAUTY TALES </div>
+                        <div class="region__field-subtitle">adv campaign 2022</div>
+                        <div class="region__field-text-cont">
+                            <p>
+                                <em>Beauty Tales</em>
+                                , under the artistic direction of Eleonore Cavalli,continues in her visual and
+                                iconographic imagery the story started with
+                                <em>Everyday Evocative</em>
+                                , created two years ago in Villa Arconati. The historic location on the outskirts of
+                                Milan, defined as “petite Versailles Italienne”, returns to be the protagonist of a new
+                                creative project, giving poetic and dreamy atmospheres, through frescoed rooms that open
+                                one after the other according to skillful plays of perspective and light.
+
+                            </p>
+                        </div>
+                    </div>
+                    <div class="region__image-field">
+                        <img class="region__field-image" src="./images/region/home.jpg" alt="">
+                    </div>
+                </a>
+            </div>
+            <!-- ! FIELD ITEM 8 REWERSE-->
+            <div class="field-item">
+                <a href="" class="region__field-group-link link-wrapper image-reverse">
+                    <div class="region__group-text padding-minus">
+                        <div class="region__field-title">VISIONNAIRE DUBAI EMBASSY</div>
+                        <div class="region__field-subtitle">new opening</div>
+                        <div class="region__field-text-cont">
+                            <p>
+                                Visionnaire continues its international openings and acquisition of direct property
+                                stores with the opening of
+                                <strong>Visionnaire Dubai Embassy</strong>
+                                at 908 Jumeirah Beach road.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="region__image-field">
+                        <img class="region__field-image" src="./images/region/for-home.gif" alt="">
+                    </div>
+                </a>
+            </div>
+            <!-- ! FIELD ITEM 9 -->
+            <div class="field-item">
+                <a href="" class="region__field-group-link link-wrapper">
+                    <div class="region__group-text">
+                        <div class="region__field-title">VISIONNAIRE LONDON EMBASSY</div>
+                        <div class="region__field-subtitle">new opening</div>
+                        <div class="region__field-text-cont">
+                            <p>
+                                Visionnaire opens a new
+                                <strong>Embassy</strong>
+                                in
+                                <strong>London</strong>
+                                , inside the prestigious
+                                <strong>Chelsea Harbour Design Center</strong>
+                                . A space for bespoke design by appointment that makes its official public debut in
+                                November.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="region__image-field">
+                        <img class="region__field-image" src="./images/region/for homepage-resize.gif" alt="">
+                    </div>
+                </a>
+            </div>
+            <!-- ! FIELD ITEM 10 REWERSE-->
+            <div class="field-item">
+                <a href="" class="region__field-group-link link-wrapper image-reverse">
+                    <div class="region__group-text padding-minus">
+                        <div class="region__field-title">BABYLON RACK </div>
+                        <div class="region__field-subtitle">By Alessandro La Spada </div>
+                        <div class="region__field-text-cont">
+                            <p>
+                                Home is above all the abode of our spirit and our dreams; a positive place in which to
+                                feel “safe,” but also a haven in which we recognize and rediscover ourselves. In this
+                                sense, the home evolves together with our lives, spaces and functions become as mutable
+                                as our emotions and our needs.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="region__image-field">
+                        <img class="region__field-image" src="./images/region/BabylonRack.jpg" alt="">
+                    </div>
+                </a>
+            </div>
+            <!-- ! FIELD ITEM 11 -->
+            <div class="field-item">
+                <a href="" class="region__field-group-link link-wrapper">
+                    <div class="region__group-text">
+                        <div class="region__field-title">HISTORY</div>
+                        <div class="region__field-subtitle">Visionnaire Home Phiolosophy</div>
+                        <div class="region__field-text-cont">
+                            <p>
+                                Visionnaire, founded by the company IPE, based in Bologna since 1959, is a meta-luxury
+                                brand of reference in the sector of interior design Made in Italy, renowned for its
+                                one-of-a-kind design process tailored to respond to the desires of its clients
+                            </p>
+                        </div>
+                    </div>
+                    <div class="region__image-field">
+                        <img class="region__field-image" src="./images/region/History1_2.jpg" alt="">
+                    </div>
+                </a>
+            </div>
+            <!-- ! FIELD ITEM 12 REWERSE-->
+            <div class="field-item">
+                <a href="" class="region__field-group-link link-wrapper image-reverse">
+                    <div class="region__group-text padding-minus">
+                        <div class="region__field-title">SUSTAINABILITY</div>
+                        <div class="region__field-subtitle">THE PATH TO LOWER THE IMPACT GROW</div>
+                        <div class="region__field-text-cont">
+                            <p>
+                                Visionnaire continues along its path of sustainable growth, focusing on the fundamental
+                                values of the brand: responsibility on its own Italian territory, ethics work, and
+                                highest quality of Made in Italy
+                            </p>
+                        </div>
+                    </div>
+                    <div class="region__image-field">
+                        <img class="region__field-image" src="./images/region/Sustainability 2.jpg" alt="">
+                    </div>
+                </a>
+            </div>
+
+            <div class="region__discover-btn">
+                <a href="">DISCOVER DECÀLOGO</a>
+            </div>
+            <!-- ! FIELD ITEM 13 -->
+            <div class="field-item">
+                <a href="" class="region__field-group-link link-wrapper">
+                    <div class="region__group-text">
+                        <div class="region__field-title">PRODUCTS</div>
+                        <div class="region__field-subtitle">Visionnaire Collection </div>
+                        <div class="region__field-text-cont">
+                            <p>
+                                Our products are the embodiment of ideas realised by using production techniques derived
+                                from different sectors of handicraft, belonging to Italian traditional artisanry. These
+                                technologies combine tradition with cutting-edge production processes, characterising
+                                our products as unique and top-quality
+                            </p>
+                        </div>
+                    </div>
+                    <div class="region__image-field">
+                        <img class="region__field-image" src="./images/region/Products.jpg" alt="">
+                    </div>
+                </a>
+            </div>
+            <!-- ! FIELD ITEM 14 REWERSE-->
+            <div class="field-item">
+                <a href="" class="region__field-group-link link-wrapper image-reverse">
+                    <div class="region__group-text padding-minus">
+                        <div class="region__field-title">CATALOGUES</div>
+                        <div class="region__field-subtitle">Visionnaire Collectable Books </div>
+                        <div class="region__field-text-cont">
+                            <p>
+                                Brand's inexhaustible design inspiration expressed through its catalogues
+                            </p>
+                        </div>
+                    </div>
+                    <div class="region__image-field">
+                        <img class="region__field-image" src="./images/region/b469cbe7-7278-49f9-a8ac-19b7ae9a11ff.gif"
+                            alt="">
+                    </div>
+                </a>
+            </div>
+            <!-- ! FIELD ITEM 15 -->
+            <div class="field-item">
+                <a href="" class="region__field-group-link link-wrapper">
+                    <div class="region__group-text">
+                        <div class="region__field-title">PROJECTS</div>
+                        <div class="region__field-subtitle">Interiors</div>
+                        <div class="region__field-text-cont">
+                            <p>
+                                Visionnaire know-how and its ability to create one-of-a-kind projects
+                            </p>
+                        </div>
+                    </div>
+                    <div class="region__image-field">
+                        <img class="region__field-image" src="./images/region/MIAMI.gif" alt="">
+                    </div>
+                </a>
+            </div>
+            <!-- ! FIELD ITEM 16 REWERSE-->
+            <div class="field-item">
+                <a href="" class="region__field-group-link link-wrapper image-reverse">
+                    <div class="region__group-text padding-minus">
+                        <div class="region__field-title">STORES</div>
+                        <div class="region__field-subtitle">WHERE WE ARE</div>
+                        <div class="region__field-text-cont">
+                            <p>
+                                Visionnaire is present in more than 55 countries
+                            </p>
+                        </div>
+                    </div>
+                    <div class="region__image-field">
+                        <img class="region__field-image" src="./images/region/STL.jpg" alt="">
+                    </div>
+                </a>
+            </div>
+            <div class="region__attachment-image-container">
+                <div class="region__attachment-image" id="attch-img1"></div>
+            </div>
+            <!-- ! FIELD ITEM 17 -->
+            <div class="field-item">
+                <a href="" class="region__field-group-link link-wrapper">
+                    <div class="region__group-text">
+                        <div class="region__field-title">Outdoor</div>
+                        <div class="region__field-subtitle">Living in tune with Nature</div>
+                        <div class="region__field-text-cont">
+                            <p>
+                                Today a need exists, ever more urgently, for contemporary man to rediscover familiarity
+                                with nature, an incessant dialogue with the earth, from the heart. The pursuit of this
+                                triggers a new perspective on living, and our task is to orient people towards the
+                                definition of the ideal places in which to reconstruct a renewed, intimate sense of
+                                <strong>psycho-physical wellness</strong>
+                                .
+                            </p>
+                        </div>
+                    </div>
+                    <div class="region__image-field">
+                        <img class="region__field-image" src="./images/region/ezgif.com-gif-maker copy.gif" alt="">
+                    </div>
+                </a>
+            </div>
+            <!-- ! FIELD ITEM 18 REWERSE-->
+            <div class="field-item">
+                <a href="" class="region__field-group-link link-wrapper image-reverse">
+                    <div class="region__group-text padding-minus">
+                        <div class="region__field-title">ARTS & CRAFTS</div>
+                        <div class="region__field-subtitle">Michele Astolfi & CaCO3 </div>
+                        <div class="region__field-text-cont">
+                            <p>
+                                Aesthetic research and craftsmanship for unique decorative proposals
+                            </p>
+                        </div>
+                    </div>
+                    <div class="region__image-field">
+                        <img class="region__field-image" src="./images/region/ASTOLFI_new_0.gif" alt="">
+                    </div>
+                </a>
+            </div>
+            <!-- ! FIELD ITEM 19 -->
+            <div class="field-item">
+                <a href="" class="region__field-group-link link-wrapper">
+                    <div class="region__group-text">
+                        <div class="region__field-title">WUNDERKAMMER</div>
+                        <div class="region__field-subtitle">Inspiration</div>
+                        <div class="region__field-text-cont">
+                            <p>
+                                Art in all its forms and expressions has always been a source of inspiration for
+                                Visionnaire. The unison dialogue between art and design led the brand to inaugurate in
+                                2011 a dedicated gallery to contemporary art projects inside the Milan flagship store of
+                                Piazza Cavour, 3
+                            </p>
+                        </div>
+                    </div>
+                    <div class="region__image-field">
+                        <img class="region__field-image" src="./images/region/ezgif.com-gif-maker_1.gif" alt="">
+                    </div>
+                </a>
+            </div>
+            <!-- ! FIELD ITEM 20 REWERSE-->
+            <div class="field-item">
+                <a href="" class="region__field-group-link link-wrapper image-reverse">
+                    <div class="region__group-text padding-minus">
+                        <div class="region__field-title">AWARDS</div>
+                        <div class="region__field-subtitle">Design</div>
+                        <div class="region__field-text-cont">
+                            <p>
+                                Awards of the international design community
+                            </p>
+                        </div>
+                    </div>
+                    <div class="region__image-field">
+                        <img class="region__field-image" src="./images/region/awards.gif" alt="">
+                    </div>
+                </a>
+            </div>
+            <div class="region__attachment-image-container">
+                <div class="region__attachment-image" id="attch-img2"></div>
+            </div>
+            <!-- ! TWO DİV -->
+            <div class="region__two-div">
+                <div class="region__div-cont">
+                    <a class="region__div" id="div1">
+                        <img src="./images/region/FEATURED copy.jpg" alt="">
+                        <div class="region__div-text-group">
+                            <div class="region__div-title">News</div>
+                            <div class="region__div-subtitle">
+                                Milan Design Gallery Virtual Experience</div>
+                            <div class="region__div-desc">
+                                Experience the new virtual tour of our flagship store in Milan. We will guide you
+                                through the
+                                Design Gallery that Visionnaire has transformed over the years into the pure expression
+                                of its
+                                own philosophy of living, in the representation of a real lifestyle.
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="region__div-cont" id="div-cont-2">
+                    <a class="region__div" id="div2">
+                        <img src="./images/region/Sedimento.jpg" alt="">
+                        <div class="region__div-text-group">
+                            <div class="region__div-title">Wunderkammer</div>
+                            <div class="region__div-subtitle">
+                                Sedimento </div>
+                            <div class="region__div-desc">
+                                The dialogue between Visionnaire and&nbsp;bottega d’arte&nbsp;Ceramica Gatti 1928, has
+                                led
+                                to “
+                                <em>Sedimento</em>
+                                ”, paying homage to the extraordinary legacy of craftsmanship found in the Italian
+                                territory, combined with creativity and reflection with a contemporary viewpoint
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+            <!-- ! VİDEO -->
+            <div class="region__video">
+
+                <iframe width="1800px" height="800px" frameborder="0" allowfullscreen="allowfullscreen"
+                    src="https://player.vimeo.com/video/443324902?h=0&amp;autoplay=0&amp;title=0&amp;byline=0&amp;controls=1&amp;modestbranding=1"
+                    data-ready="true"></iframe>
+            </div>
+            <!-- ! text -->
+            <div class="region__text-section">
+                <p>&nbsp;</p>
+
+                <p><strong>A COLLECTION INSPIRED BY ART DESIGN</strong></p>
+
+                <p>Beauty is a word with an intense, multifaceted meaning. Besides indicating an outlook of positive
+                    energy and hope, the contemporary beauty narrated by Visionnaire sums up an attitude, that of
+                    creating extraordinary, unique projects and objects. Constant technological research,
+                    experimentation with materials, the juxtaposition and mixing of element, the hands of our craftsmen
+                    that test, perfect and define a new material solution: these are the factors that go into every
+                    single product, making it unique, inimitable, yet reproducible.</p>
+
+                <p>This year, Visionnaire expands its Art Design offerings, approaching the great challenge of
+                    contextualizing them in a retail scenario and involving designers of artistic talent, with a vivid
+                    focus on experimentation with materials: almost “Renaissance” attitude, in terms of method and
+                    individual effort invested in the genesis and realization of the Brand’s creations.</p>
+            </div>
+            <!-- ! FIELD ITEM 21 REWERSE-->
+            <div class="field-item">
+                <a href="" class="region__field-group-link link-wrapper image-reverse image-first">
+                    <div class="region__group-text padding-minus">
+                        <div class="region__field-title-top">Home Philosophy</div>
+                        <div class="region__field-title">Amos</div>
+                        <div class="region__field-subtitle">Dining room</div>
+                        <div class="region__field-text-cont">
+                            <p>
+                                As event partner of BOAT International at the
+                                <strong>Superyacht Design Festival 2022 </strong>
+                                , Visionnaire featured a special exhibition layout at The Mall in Milan to show its
+                                <strong>one-of-a-kind </strong>
+                                design approach, confirming its leading role in the sector.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="region__image-field">
+                        <img class="region__field-image" src="./images/region/Amos_dining-room_01-cover_0.jpg" alt="">
+                    </div>
+                </a>
+            </div>
+
+            <!-- ! FIELD ITEM 22 -->
+            <div class="field-item">
+                <a href="" class="region__field-group-link link-wrapper image-first">
+                    <div class="region__group-text">
+                        <div class="region__field-title-top">Home Philosophy</div>
+                        <div class="region__field-title">Ultrasound</div>
+                        <div class="region__field-subtitle">Bedroom</div>
+                        <div class="region__field-text-cont">
+                            <p>
+                                Burly composition of padded elements marked by fluid and reverberating lines of
+                                ultrasound inspiration, which extends to the bedside tables in anosmotic way.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="region__image-field">
+                        <img class="region__field-image" src="./images/region/Ultrasound_bedroom_01-cover_0.jpg" alt="">
+                    </div>
+                </a>
+            </div>
+
+            <!-- ! FIELD ITEM 23 REWERSE-->
+            <div class="field-item">
+                <a href="" class="region__field-group-link link-wrapper image-reverse image-first">
+                    <div class="region__group-text padding-minus">
+                        <div class="region__field-title-top">Home Philosophy</div>
+                        <div class="region__field-title">Montparnasse</div>
+                        <div class="region__field-subtitle">Livingroom</div>
+                        <div class="region__field-text-cont">
+                            <p>
+                                Technological evolution and aesthetic innovation&nbsp;through the new products designed
+                                by Mauro Lipparini.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="region__image-field">
+                        <img class="region__field-image" src="./images/region/Montparnasse_livingroom_01-cover_1.jpg"
+                            alt="">
+                    </div>
+                </a>
+            </div>
+
+            <!-- ! FIELD ITEM 24 REWERSE-->
+            <div class="field-item" id="background-gray">
+                <a href="" class="region__field-group-link link-wrapper image-reverse image-first">
+                    <div class="region__group-text padding-minus" id="text-vertical-center">
+                        <div class="region__field-title">E-Boutique</div>
+                        <div class="region__field-subtitle">Accessories Capsule Collection</div>
+                        <div class="region__field-text-cont">
+                            <p style="margin: 0;">
+                                An original narrative approach translated into expressive Art Design vocabulary.
+                            </p>
+                        </div>
+                        <p id="button-container"><span class="region__button">Shop now</span></p>
+
+                    </div>
+                    <div class="region__image-field">
+                        <img class="region__field-image" src="./images/region/accessories_gif.gif" alt="">
+                    </div>
+                </a>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer__inside-footer">
+
+            <div class="footer__logo-footer">
+                <img src="./images/header/logo.svg" alt="">
+            </div>
+            <ul class="footer__link-container">
+                <li><a href="">
+                        Contact
+                    </a></li>
+                <li><a href="">
+                        Cookie Policy
+                    </a></li>
+                <li><a href="">
+                        Newsletter
+                    </a></li>
+                <li><a href="">
+                        Vision App
+                    </a></li>
+                <li><a href="" id="special-text">
+                        © IPE Srl - Zola Predosa (BO) Italia - P.IVA 03007721206
+                    </a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>
